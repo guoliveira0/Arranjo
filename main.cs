@@ -18,6 +18,6 @@ class Program {
 
      //Int32[] arr1 = new Int32[] {99, 88, 77, 66};
     //Boolean[] arr1 = new Boolean[] {true, false, true, false};
-    String[]arr1 
+    //tring[]arr1 = new String[] {"Cecília", "Beatriz", "Ana"};
   }
 }
