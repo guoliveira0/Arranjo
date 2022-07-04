@@ -2,22 +2,16 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    //Int32[] arr1 = new Int32[5];
-
-    /*Console.WriteLine(arr1[0]);
-    Console.WriteLine(arr1[1]);
-    Console.WriteLine(arr1[2]);
-    Console.WriteLine(arr1[3]);
-    Console.WriteLine(arr1[4]);*/
+  Discente[] arr1 = new Discente[3];
+  Discente d1;
+  d1 = new Discente(789, "Ana", 16);
+  arr1[0] = d1;
     
-    /*Console.WriteLine([0]);
-    Console.WriteLine([1]);
-    Console.WriteLine([2]);
-    Console.WriteLine([3]);
-    Console.WriteLine([4]);*/
-
-     //Int32[] arr1 = new Int32[] {99, 88, 77, 66};
-    //Boolean[] arr1 = new Boolean[] {true, false, true, false};
-    //tring[]arr1 = new String[] {"Cecília", "Beatriz", "Ana"};
+  Console.WriteLine(arr1[0]);
+    
+  /*Discente d2 = new Discente();
+  d2.Matricula = 34;
+  d2.Nome = "Esther Fernandes";
+  d2.Idade = 23;*/
   }
 }
