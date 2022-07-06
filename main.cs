@@ -19,5 +19,11 @@ class Program {
   for(int i = 0; i< arr1.Length; i++){
     Console.WriteLine(arr1[i].Idade);
   }
+    Single total = 0f;
+    for(int i = 0; i < arr1.Length; i++ ) {
+      total += arr1[i].Idade;
+    }
+    Single media = total / arr1.Length;
+    Console.WriteLine("Idade média: " + media);
   }
 }
