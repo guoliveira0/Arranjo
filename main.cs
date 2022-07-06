@@ -16,7 +16,7 @@ class Program {
   arr1[1] = new Discente(45, "Luiz Gustavo", 23);
   arr1[2] = new Discente(89, "Luiz Gustavo", 56);
   arr1[3] = new Discente(546, "Luiz Gustavo", 78);
-  for(int i = 0; i< arr1.Length; i++){
+  /*for(int i = 0; i< arr1.Length; i++){
     Console.WriteLine(arr1[i].Idade);
   }
     Single total = 0f;
@@ -24,6 +24,9 @@ class Program {
       total += arr1[i].Idade;
     }
     Single media = total / arr1.Length;
-    Console.WriteLine("Idade média: " + media);
+    Console.WriteLine("Idade média: " + media);*/
+    foreach(Discente n in arr1 ){
+      Console.WriteLine(n);
+    }
   }
 }
